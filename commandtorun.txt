@@ -1,0 +1,1 @@
+./update_poms_with_git_commit.sh "trial1 trial2 trial3" "2.7.9" "spring-boot-starter-parent" "dev"
