@@ -29,3 +29,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore CODEOWNERS file
+.github/CODEOWNERS
