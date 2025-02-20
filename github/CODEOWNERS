@@ -1,10 +1,4 @@
-# CODEOWNERS file
+# CODEOWNERS file for branch protection rules
 
-# dev branch files
-/dev/ @dev-approvers
-
-# qa branch files
-/qa/ @qa-approvers
-
-# main branch files
-/main/ @release-approvers
+# Apply to all files, with branch protection enforcing specific approvers
+* @allegedlytcg/dev-approvers @allegedlytcg/qa-approvers @allegedlytcg/release-approvers
