@@ -1,10 +1,10 @@
-# CODEOWNERS file
+# CODEOWNERS file for branch-specific approvers with organization prefix
 
-# dev branch files
-/dev/ @allegedlytcg/dev-approvers
+# Apply to all files in the dev branch
+/dev/* @allegedlytcg/dev-approvers
 
-# qa branch files
-/qa/ @allegedlytcg/@qa-approvers
+# Apply to all files in the qa branch
+/qa/* @allegedlytcg/qa-approvers
 
-# main branch files
-/main/ @allegedlytcg/@release-approvers
+# Apply to all files in the main branch
+/main/* @allegedlytcg/release-approvers
