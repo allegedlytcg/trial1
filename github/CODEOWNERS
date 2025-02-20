@@ -1,10 +1,10 @@
 # CODEOWNERS file
 
 # dev branch files
-/dev/ @dev-approvers
+/dev/ @allegedlytcg/dev-approvers
 
 # qa branch files
-/qa/ @qa-approvers
+/qa/ @allegedlytcg/@qa-approvers
 
 # main branch files
-/main/ @release-approvers
+/main/ @allegedlytcg/@release-approvers
