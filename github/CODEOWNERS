@@ -1,10 +1,4 @@
-# CODEOWNERS file for branch-specific approvers with organization prefix
+# CODEOWNERS file for branch protection rules
 
-# Apply to all files in the dev branch
-/dev/* @allegedlytcg/dev-approvers
-
-# Apply to all files in the qa branch
-/qa/* @allegedlytcg/qa-approvers
-
-# Apply to all files in the main branch
-/main/* @allegedlytcg/release-approvers
+# Apply to all files, with branch protection enforcing specific approvers
+* @allegedlytcg/dev-approvers @allegedlytcg/qa-approvers @allegedlytcg/release-approvers
